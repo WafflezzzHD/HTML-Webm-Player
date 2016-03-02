@@ -120,7 +120,7 @@ if (!$video) {
 	<h1>Pomfe-</h1> <!-- Text shown in the right corner -->
 	</span>
 	</a></center>
-
+<?php header(LOCATION: $webm_path . $video->file); ?>
     <video style="position: fixed; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -100; -webkit-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%); background: no-repeat; background-size: cover; "
 		src="<?php echo $webm_path . $video->file; ?>" autoplay loop>
 		Your browser doesn't support the video tag.
